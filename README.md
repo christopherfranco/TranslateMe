@@ -12,8 +12,8 @@ The following **required** functionality is completed:
 
 - [X] Users open the app to a TranslationMe home page with a place to enter a word, phrase or sentence, a button to translate, and another field that should initially be empty
 - [X] When users tap translate, the word written in the upper field translates in the lower field. The requirement is only that you can translate from one language to another.
-- [ ] A history of translations can be stored (in a scroll view in the same screen, or a new screen)
-- [ ] The history of translations can be erased
+- [X] A history of translations can be stored (in a scroll view in the same screen, or a new screen)
+- [X] The history of translations can be erased
  
 The following **optional** features are implemented:
 
@@ -29,17 +29,16 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <div>
-    <a href="https://www.loom.com/share/f166653782cb4a0498656e73c139a2df">
+    <a href="https://www.loom.com/share/78b08aea786d478f9078a9b2c41d8104">
     </a>
-    <a href="https://www.loom.com/share/f166653782cb4a0498656e73c139a2df">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f166653782cb4a0498656e73c139a2df-13a57379ff893e6e-full-play.gif">
+    <a href="https://www.loom.com/share/78b08aea786d478f9078a9b2c41d8104">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/78b08aea786d478f9078a9b2c41d8104-af3893a9d300dd42-full-play.gif">
     </a>
   </div>
 
 ## Notes
 
-The clear history function gave me more trouble than I imagined. Saving the translated text also gave me a bit of
-a headache. Firestore was also new to me so it caused a few issues.
+Firestore setup caused a few issues with the write permissions.
 
 ## License
 
